@@ -1,0 +1,32 @@
+.all{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.text{
+    font-size: 15pt;
+    color: gray;
+}
+
+.text2{
+    font-size: 13pt;
+    color: gray;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.kart{
+    margin-bottom: 10px;
+}
+
+.downtext{
+    display: flex;
+    justify-content: row;
+}
+

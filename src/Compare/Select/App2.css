@@ -1,0 +1,100 @@
+
+.World{
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap : nowrap;
+  width: 45%;
+  height: auto;
+  float: left;
+  margin-left: 4%;
+  margin-top: 0px;
+}
+
+.Half{
+  /* min-width: 312px; */
+  width:100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 30px;
+}
+.Half2{
+  width:50%;
+  height: 96vh;
+
+}
+.P {
+  height:40px;
+  vertical-align: middle;
+  text-align: center;
+  width: 40px;
+  font-size: 2rem ;
+  background-color: black;
+  color : rgb(41, 37, 37);
+}
+.Pro {
+  font-size : 2rem;
+  color : white;
+}
+
+.Fix {
+  font-size : 1.5rem;
+  margin-left : 10vh;
+  margin-top : 2vh;
+}
+
+.Select {
+  margin-left : 5vh;
+  font-size : 3rem;
+  font-weight: 900;
+  color : rgb(73, 73, 177);
+  margin-bottom: 30px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.Div{
+  display : flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap : wrap;
+}
+.Button :hover{
+  background-color: rgb(73, 73, 177);
+}
+.Button{
+  width: auto;
+  margin-left : 1vh;
+  margin-bottom : 10px;
+  background-color: white;
+  color: #1258cd;
+  font-weight: bold;
+  border : 2px solid  #1258cd;
+  border-radius: 2rem;
+  font-size : 1rem;
+}
+.Hole {
+  width : auto;
+  height : 80vh;
+}
+.Sex {
+  margin-left:3%;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+
+.Images{
+  margin-top : 5vh;
+  width : 261px;
+  height: 174px;
+  border-radius: 2rem;
+  background-color: black;
+  color : white;
+  text-align: center;
+  margin-bottom:3%;
+  margin-right: 20px;
+}
+
+.Explain{
+  margin-top : 5vh;
+}

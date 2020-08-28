@@ -1,0 +1,156 @@
+.all_mypage{
+    width: 600px;
+    height: 500px;
+    
+
+
+}
+
+.mypage_box button{
+    width: 50px;
+    margin-left : 1vh;
+   
+    background-color: #1258cd;
+    color: white;
+    font-weight: bold;
+    border : 2px solid  #1258cd;
+    border-radius: 2rem;
+    font-size : 10pt;
+    height: 20px;
+    cursor: pointer;
+
+    padding-bottom: 19px;
+  
+}
+
+
+.all_mypage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.all_mypage h2{
+   font-size: 23pt;
+}
+
+.mypage_box{
+    height: 400px;
+    /* border: 1px solid black; */
+
+    text-align: left;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mypage_id_input{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  
+}
+
+
+.mypage_pw_input{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.mypage_nickname_input{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+
+.mypage_colon{
+    
+
+    width: 20px;
+}
+
+.mypage_id_pw_nic{
+    width: 110px;
+}
+
+.mypage_board{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.mypage_board_zzim{
+    width: 50%;
+    color: black;
+}
+
+.mypage_board_item{
+    width: 50%;
+    color: black;
+}
+
+.mypage_board div h3{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.myp_bd_zz {
+    border : 2px solid  #1258cd;
+    height:200px;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 15px;
+    margin-top: -5px;
+
+
+}
+
+.myp_bd_it{
+    border : 2px solid  #1258cd;
+    height:200px;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 15px;
+    margin-top: -5px;
+}
+
+
+.mypage_idinput{
+    height: 20px;
+    background-color: rgb(218,218,218);
+    border-radius: 10px;
+    border-color: white;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.mypage_submit{
+    width: 50px;
+    margin-left : 1vh;
+   
+    background-color: white;
+    color: #1258cd;
+    font-weight: bold;
+    border : 2px solid  #1258cd;
+    border-radius: 2rem;
+    font-size : 10pt;
+    height: 20px;
+    cursor: pointer;
+
+    padding-bottom: 19px;
+}
+
+.mypage_heartimage{
+    position: absolute;
+
+    top: 248px;
+    left: 110px;
+}

@@ -1,0 +1,118 @@
+.Sub_allpage{
+  background-color: white;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Sub_content{
+  height: 900px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgb(185, 185, 185);
+
+}
+
+.Sub_title_box{
+  margin-top: 70px;
+  margin-left: 30px;
+  height: 60px;
+}
+
+.Sub_title_text{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -7px;
+  padding-top: 0px;
+  padding-left: 1%;
+}
+
+.Sub_buttons{
+  display : flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap : wrap;
+}
+
+.Sub_Button{
+  width: auto;
+  margin-left : 1vh;
+  margin-bottom : 10px;
+  background-color: white;
+  color: #1258cd;
+  font-weight: bold;
+  border : 2px solid  #1258cd;
+  border-radius: 2rem;
+  font-size : 1rem;
+}
+
+.Sub_Button:hover{
+  background-color: rgb(73, 73, 177);
+  cursor: pointer;
+}
+
+
+.Sub_explain{
+  background-color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 18px;
+  border-radius: 15px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Sub_choice{
+  
+}
+
+.Sub_explain_box{
+  
+  height: 500px;
+  border-top: 1px solid gray;
+  display: flex;
+
+}
+
+.Sub_explain_text{
+  flex: 1;
+  text-align: left;
+  font-size: 17pt;
+   border:1px solid black; 
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.Sub_explain_img{
+  flex: 1;
+  display: flex;
+   border:1px solid black;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.Sub_img{
+  
+}
+
+.Sub_bottom_bar{
+  height: 70px;
+  background-color: #282828;
+  bottom:0px;
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 15pt;
+
+
+  
+}
+

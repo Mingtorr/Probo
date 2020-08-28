@@ -1,0 +1,25 @@
+.search_text{
+    margin-top: -130px;
+    color: #1258cd;
+}
+
+.searchP_text{
+    color: #1258cd;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-Size: 17pt
+   
+    
+}
+
+
+
+.pw_box_sign input{
+    margin-top:22px;
+    margin-right: 20px;
+}
+
+.pw_box_sign{
+    display: flex;
+    width: 100%;
+}

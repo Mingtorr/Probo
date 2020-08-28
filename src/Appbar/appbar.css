@@ -1,0 +1,90 @@
+.appbar{
+    position: fixed; 
+    display: inline-block;
+    background-color: #282828;
+    width: 100%;
+    height: auto-10px;
+    top: 0;
+    z-index :99999;
+    justify-content: space-between;
+    align-items: center;
+}
+.appbar img{
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.drop_menu{
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+#menu1{
+    margin-left: 40%;
+}
+.drop_menu li{
+    margin-top: 3px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.drop_menu li:hover{
+    background-color: black;
+    border-radius: 4px;
+}
+.drop_menu a{
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.appbar_toogle img{
+    margin: 0px; 
+
+}
+.appbar_toogle{
+    display: none;
+    position: absolute; 
+    right: 30px;
+    top: 12px;  
+}
+@media screen and (max-width:781px){
+    .appbar{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .appbar img{
+        margin-right: 100%;
+        
+    }
+    .drop_menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .drop_menu li{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgb(105, 103, 103);
+    }
+
+    .appbar_toogle{
+        display: block;  
+    }
+
+    .drop_menu.active{
+        display: flex;
+    }
+
+    .main_input.active{
+        margin-top: 220px;
+    }
+}

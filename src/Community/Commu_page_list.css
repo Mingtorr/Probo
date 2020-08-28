@@ -1,0 +1,16 @@
+.commu_p_list{
+    margin-top: -10px;
+    margin-left: 5%;
+    height: 260px;
+    /* border: 1px solid black; */
+    
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.commu_p_list a{
+    margin-top: 3px;
+    border-bottom: 1px solid rgb(218,218,218);
+}

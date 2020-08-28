@@ -1,0 +1,16 @@
+.leftmenu{
+    width:200px;
+    height: 210px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.leftmenu a{
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
